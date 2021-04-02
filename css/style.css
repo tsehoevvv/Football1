@@ -1,0 +1,568 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1600px;
+}
+.header{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background: #2E0062;
+    box-shadow: 0px 4px 0px #230C3D;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-list__link{
+    display: flex;
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 32px;
+    text-decoration: none;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list__item{
+    list-style: none;
+    margin-right: 32px;
+}
+.header-number{
+    margin-right: 20px;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-link{
+    margin-right: 14px;
+}
+.school{
+    padding-top: 176px;
+    padding-bottom: 392px;
+    background-image: url("../img/backround.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.school-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.school-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.school-button{
+    padding: 12px 110px;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2E0062;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.advantage{
+    background-image: url("../img/fon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #FFF0CB;
+    padding-bottom: 188px;
+}
+.advantage-title{
+    margin: 0;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 120px;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #2E0062;
+}
+.advantage-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #2E0062;
+    padding-top: 24px;
+}
+.advantage-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.adventage-block{
+    flex-basis: 33%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.age{
+    background: #6D3EA2;
+}
+.age-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.age-block{
+    padding: 48px 186px 54px 48px;
+    background: #2E0062;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    width: 632px;
+   
+}
+.age-block__two{
+    align-self: flex-end;
+    padding-top: 24px;
+    margin-bottom: 120px;
+}
+.age-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 120px;
+    padding-top: 120px;
+}
+.age-text{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.age-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.children{
+    background-image: url("../img/blue.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #FFF0CB;
+    padding-bottom: 80px;
+    padding-top: 86px;
+    background: #00B0FF;
+}
+
+.children-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-children{
+    display: flex;
+    align-items: center;
+}
+.children-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.children-text{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+.children-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.treiner{
+    background-image: url("../img/Rectangle 71.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #FFF0CB;
+    padding-bottom: 184px;
+    padding-top: 193px;
+    background: #FFF0CB;
+}
+.treiner-wrapper{
+    padding-left: 250px;
+}
+.treiner-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #2E0062;
+    margin-bottom: 120px;
+}
+.treiner-name{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #2E0062;
+    margin-bottom: 20px;
+}
+.treiner-button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #FFE197;
+    border-radius: 8px;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2E0062;
+    margin-right: 18px;
+}
+.treiner-button__one{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #6D3EA2;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.treiner-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2E0062;
+}
+.footbol{
+    background-image: url("../img/footbo1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 184px;
+    padding-top: 193px;
+    margin-bottom: 168px;
+}
+.footbol-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-left: 1076px;
+    margin-bottom: 74px;
+    padding-top: 636px;
+}
+.footbol-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-left: 1076px;
+}
+.tiger{
+    background-image: url("../img/tiger-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tiger-title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #2E0062;
+    margin-bottom: 120px;
+}
+.tiger-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+.tiger-block{
+    width: 344px;
+    height: 470px;
+    background: #6D3EA2;
+    border-radius: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+.tiger-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.tiger-text{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 22px;
+}
+.tiger-price{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 112px;
+}
+.tiger-button{
+    padding: 12px 80px;
+    background: #7DCE94;
+    box-shadow: 0px 4px 0px #40A85D;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.tiger-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.food{
+    padding: 121px;
+    padding-bottom: 80px;
+    background-image: url("../img/fon3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.food-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.food-title{
+    margin: 0;
+    text-align: center;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 438px;
+}
+
+.food-block{
+    position: relative;
+    padding: 48px 100px 82px 48px;
+    background: #2E0062;
+    border-radius: 20px;
+}
+.food-image{
+    position: absolute;
+    right: 34px;
+    bottom: 24px;
+}
+.food-block__title{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.food-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.food-text{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+    margin-left: 34px;
+}
+.footer{
+    background: #2E0062;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 64px;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-button{
+    display: flex;
+    align-items: center;
+    padding: 12px 91px;
+    background: #FFE197;
+    border-radius: 50px;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2E0062;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.footer-descr{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.map{
+    width:728px;
+    height:424px;
+}
+.footer-number{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-image{
+    margin-right: 16px;
+}
+.footer-text{
+    margin: 0;
+    font-family: Circe Rounded ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 56px;
+    margin-bottom: 56px;
+    margin-left: 500px;
+
+}
+.school-image{
+    margin-right: 8px;
+}
